@@ -28,5 +28,17 @@ pipeline {
                 sleep 4
             }
         }
+        stage('aut') {
+            steps {
+                echo 'aut'
+                sleep 5
+            }
+        }
+        stage('package') {
+            steps {
+                echo 'package'
+                sleep 5
+            }
+        }
     }
 }
