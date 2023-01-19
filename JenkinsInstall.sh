@@ -1,4 +1,5 @@
 #!/bin/bash
+#this file was clone from DSG
 
 #Author: Dominique
 #Date: March 1st, 2022
