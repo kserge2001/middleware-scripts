@@ -1,0 +1,9 @@
+pipeline {
+    agent any
+    stages {
+        stage ("Creating zip files")
+            steps {
+                sh 'zip middlewarescripts-$(date +%y%m%d-%H%M%S).zip * --exclude Jenkinsfile Jenkinsfile1'
+            }
+        }
+    }
